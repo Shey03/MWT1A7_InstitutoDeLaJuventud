@@ -1,0 +1,155 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F9FBE7;
+    border: solid, 0.5px, black;
+}
+.barraNav{ 
+    height: 70px; 
+    width: 100%; 
+    border-radius:5px;
+    padding: 10px;
+    background-image: linear-gradient(325deg, #cbd1ff 0, #6185f4 50%, #0043bc 100%);
+}
+.listaNav{
+    display: flex;
+    position: relative;
+    list-style: none;
+    justify-content: right;
+}
+.listaNav li a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.subtitulo{
+    padding:10px;
+    text-align: center;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blueviolet;
+    text-shadow: 2px 3px 10px rgb(76, 75, 75);
+}
+.cajaTalleres{
+    position: relative;
+    display: grid;
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.grid-item{
+    border: solid 1px gray;
+    border-radius: 5px;
+    height: 500px;
+    position:relative;
+    margin: 10px;
+}
+.grid-item2{
+    border: solid 1px gray;
+    border-radius: 5px;
+    height: 470px;
+    position:relative;
+    margin: 10px;
+}
+img{
+    width: 100%;
+    height: 300px;
+}
+.tituloTaller{
+    text-align: center;
+    color:indianred;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.lisTalleres{
+    margin: 10px;
+    padding: 0px 20px;
+    font-size: 25px;
+    list-style:circle;
+}
+a{
+    text-decoration: none;
+    text-align: right;
+    display: block;
+}
+.slogan2{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    color:#AD1457;
+}
+footer{
+    background-image: linear-gradient(325deg, #cbd1ff 0, #6185f4 50%, #0043bc 100%);
+    padding: 10px;
+}
+h3{
+    font-size: 30px;
+}
+.dir{
+    padding: 10px;
+    font-size: 25px;
+}
+.parrPie{
+    text-align: center;
+    font-style: bold;
+    font-size: 20px;
+}
+
+/* CARRUSEL DE LA PAGINA NOTICIAS */
+.contenedorCarrusel{
+    height: 500px;
+    overflow: hidden;
+    box-shadow: 2px 3px 10px rgb(76, 75, 75);
+    border: 10px;
+}
+.itemCarrusel{
+    height: 100%;
+    position: relative;
+}
+.tarjetaCarrusel{
+    height: 100%;
+}
+.flechasCarrusel{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.tarjetaCarrusel-1{ height:100%; }
+.imagen1, .imagen2, .imagen3{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.imagen2{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* INFORMACIÓN CONTACTO */
+
+.contNumero,.contDireccion{
+    font-size: 30px;
+    margin: 10px;
+    white-space: pre-line;
+}
+
+iframe{ 
+    width: 80%; 
+    border-radius: 30px;
+    border-color:black;
+    }

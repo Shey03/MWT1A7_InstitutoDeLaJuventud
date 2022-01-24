@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F9FBE7;
+    border: solid, 0.5px, black;
+}
+.barraNav{ 
+    height: 70px; 
+    width: 100%; 
+    border-radius:5px;
+    padding: 10px;
+    background-image: linear-gradient(325deg, #cbd1ff 0, #6185f4 50%, #0043bc 100%);
+}
+.listaNav{
+    display: flex;
+    position: relative;
+    list-style: none;
+    justify-content: right;
+}
+.listaNav li a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.caja1{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tituloPrincipal{
+    padding:10px;
+    text-align: center;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blueviolet;
+    text-shadow: 2px 3px 10px rgb(76, 75, 75);
+}
+.portada1{
+    width: 100%;
+    border-radius: 10px;
+   box-shadow:  2px 5px 10px rgb(76, 75, 75);
+}
+.parrafoPrincipal{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+.caja2, .caja3{
+    border: solid 0.5px rgb(49, 49, 49);
+    box-shadow: 2px 3px 10px rgb(76, 75, 75);
+    border-radius:10px;
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+    display: flex;;
+}
+.imagenCaja1{
+    width: 660px;
+    height: 470px;
+    border-radius: 10px;
+}    
+.imagenCaja2{
+    width: 670px;
+    height: 470px;
+    border-radius: 13px;
+}
+.caja2-1, .caja3-1{
+    height: 470px; 
+    width: 50%; 
+
+}
+.caja2-2, .caja3-2{
+    height: 470px; 
+    width: 50%; 
+}
+h2{
+    font-size: 43px;
+    text-align: center;
+    margin: 10px;
+    color: darkblue;
+    text-shadow: 5px 6px 3px rgb(8, 174, 240);
+}
+.parrafoMision, .parrafoVi{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin: 20px;
+    text-align: justify;
+}
+.slogan{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    color:#AD1457;
+}
+footer{
+    background-image: linear-gradient(325deg, #cbd1ff 0, #6185f4 50%, #0043bc 100%);
+    padding: 10px;
+}
+h3{
+    font-size: 30px;
+}
+.dir{
+    padding: 10px;
+    font-size: 25px;
+}
+.parrPie{
+    text-align: center;
+    font-style: bold;
+    font-size: 20px;
+}
